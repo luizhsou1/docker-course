@@ -15,5 +15,8 @@ Pois as pastas criadas como volumes ficam não no container e sim num lugar rese
 **\$ docker run -p 8080:3000 -v "/home/luiz/git/hub/my/docker-course/volume-exemplo:/var/www" -w "/var/www" node npm start**
 (Mapea um diretório local para um diretório dentro do container, útil para executar coisas que não tenho dentro do container, exemplo, baixei um fonte de exemplo em PHP, mas não quero instalar na minha máquina, baixo a imagem do PHP e coloco o container para enxergar a pasta local do projeto, para conseguir executar)
 
+**\$ docker run -p 8080:3000 -v "\$(pwd):/var/www" -w "/var/www" node npm start**
+(Mesmo comando anterior só que mapeando a pasta atual, dominar shell ajuda muito na hora de usar o docker)
+
 **flags Aprendidas**
 -w: Fala qual diretório é para ser executado o comando
