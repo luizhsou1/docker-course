@@ -19,7 +19,7 @@
 (Starta um container parado)
 
 **/\$ docker start -a -i ubuntu**
-(Conecta(Atach) um container em execução e roda no modo interativo, para poder executar comandos)
+(Conecta(Attach) um container em execução e roda no modo interativo, para poder executar comandos)
 
 **\$ docker stop $NOME_CONTAINER ou $ID_CONTAINER**
 (Para um container ativo)
