@@ -17,3 +17,6 @@
 
 **\$ docker run -d -p 12345:80 dockersamples/static-site**
 (Mapea a porta 80 do container para a minha porta 12345)
+
+**\$ docker run -d -e AUTHOR="Luiz Henrique" dockersamples/static-site**
+(Seta uma variável de ambiente AUTHOR dentro do container)
