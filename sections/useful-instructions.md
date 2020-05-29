@@ -14,10 +14,14 @@
 
 **\$ docker start $NOME_CONTAINER ou $ID_CONTAINER**
 (Starta um container parado)
-obs.\$ID_CONTAINER pode ser só o começo que já identifica
 
 **/\$ docker start -a -i ubuntu**
 (Conecta(Atach) um container em execução e roda no modo interativo, para poder executar comandos)
 
 **\$ docker stop $NOME_CONTAINER ou $ID_CONTAINER**
 (Para um container ativo)
+
+**\$ docker rm $NOME_CONTAINER ou $ID_CONTAINER**
+(Remove um container especifíco)
+
+**obs.\$ID_CONTAINER pode ser só o começo que já identifica**
