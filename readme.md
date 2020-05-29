@@ -13,3 +13,6 @@
 
 **\$ docker run -it ubuntu**
 (Executa de forma iterativa, conecta o meu terminal ao terminal do ubuntu nesse caso)
+
+**\$ docker start $NOME_CONTAINER ou $ID_CONTAINER**
+(Starta um container parado)
