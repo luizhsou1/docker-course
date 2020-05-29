@@ -16,3 +16,6 @@
 
 **\$ docker start $NOME_CONTAINER ou $ID_CONTAINER**
 (Starta um container parado)
+
+**\$ docker stop $NOME_CONTAINER ou $ID_CONTAINER**
+(Para um container ativo)
