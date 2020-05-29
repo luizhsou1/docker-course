@@ -21,6 +21,9 @@
 **\$ docker stop $NOME_CONTAINER ou $ID_CONTAINER**
 (Para um container ativo)
 
+**\$ docker stop -t 0 $NOME_CONTAINER ou $ID_CONTAINER**
+(Para um container ativo, e não espera nem um segundo para isso, por padrão é 10)
+
 **\$ docker rm $NOME_CONTAINER ou $ID_CONTAINER**
 (Remove um container especifíco)
 
