@@ -14,3 +14,6 @@
 
 **\$ docker run -d -P --name meu-site dockersamples/static-site**
 (Adiciona um name ao container)
+
+**\$ docker run -d -p 12345:80 dockersamples/static-site**
+(Mapea a porta 80 do container para a minha porta 12345)
