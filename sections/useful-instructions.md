@@ -24,4 +24,7 @@
 **\$ docker rm $NOME_CONTAINER ou $ID_CONTAINER**
 (Remove um container especifíco)
 
+**\$ docker container prune**
+(Remove todos os containers inativos)
+
 **obs.\$ID_CONTAINER pode ser só o começo que já identifica**
