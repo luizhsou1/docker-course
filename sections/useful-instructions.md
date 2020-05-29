@@ -27,4 +27,7 @@
 **\$ docker container prune**
 (Remove todos os containers inativos)
 
+**\$ docker images**
+(Mostra todas as imagens)
+
 **obs.\$ID_CONTAINER pode ser só o começo que já identifica**
