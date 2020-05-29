@@ -30,4 +30,7 @@
 **\$ docker images**
 (Mostra todas as imagens)
 
+**\$ docker rmi $NOME_CONTAINER ou $ID_CONTAINER**
+(Remove uma imagem específica)
+
 **obs.\$ID_CONTAINER pode ser só o começo que já identifica**
