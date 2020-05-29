@@ -8,3 +8,6 @@
 
 **\$ docker run -d -P dockersamples/static-site**
 (Atrela alguma porta do meu SO as portas usadas pelo container)
+
+**$ docker port $ID_CONTAINER**
+(Mostra quais portas estão mapeadas para as portas do container)
