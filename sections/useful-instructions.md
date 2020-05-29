@@ -9,6 +9,9 @@
 **\$ docker ps -a**
 (Tem Todos os containers criados, independetes de estarem em execução)
 
+**\$ docker ps -q**
+(Lista apenas os ids dos containers em execução)
+
 **\$ docker run -it ubuntu**
 (Executa de forma iterativa, conecta o meu terminal ao terminal do ubuntu nesse caso)
 
@@ -23,6 +26,9 @@
 
 **\$ docker stop -t 0 $NOME_CONTAINER ou $ID_CONTAINER**
 (Para um container ativo, e não espera nem um segundo para isso, por padrão é 10)
+
+**\$ docker stop \$(docker ps -q)**
+(Para todos os containers em execução)
 
 **\$ docker rm $NOME_CONTAINER ou $ID_CONTAINER**
 (Remove um container especifíco)
