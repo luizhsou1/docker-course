@@ -1,4 +1,4 @@
-##Exemplo simples - Site estático
+## Exemplo simples - Site estático
 
 **\$ docker run dockersamples/static-site**
 (Quando não é uma imagem oficial precisamos identificar o username antes, nesse casom dockersamples)
